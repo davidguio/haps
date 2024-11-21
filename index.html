@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Haps - Fruta Deshidratada al Sol de Alto Ricaurte</title>
+    <meta name="description" content="Fruta deshidratada naturalmente bajo el sol de las montañas áridas de Alto Ricaurte, Colombia.">
+    <!-- Fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Reset de estilos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-image: url('https://res.cloudinary.com/dadp1865s/image/upload/v1732229934/Desierto-de-La-Candelaria-Sachica-2_1_kkburi.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 200px 0;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        header h1, header h2 {
+            position: relative;
+            z-index: 1;
+        }
+
+        header h1 {
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 30px;
+            font-weight: 400;
+        }
+
+        nav {
+            background-color: #f8f8f8;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 15px 0;
+            display: block;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #e67e22;
+        }
+
+        section {
+            padding: 60px 80px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #e67e22;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        p, li {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 40px;
+        }
+
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .producto {
+            flex: 1 1 calc(33% - 20px);
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .producto:hover {
+            transform: translateY(-10px);
+        }
+
+        .producto img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .producto h3 {
+            margin: 15px 0 10px;
+            color: #333;
+        }
+
+        .contacto-info p {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .social-media a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .social-media a:hover {
+            color: #e67e22;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 50px;
+            }
+
+            header h2 {
+                font-size: 24px;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav li {
+                margin: 0;
+            }
+
+            .productos {
+                flex-direction: column;
+            }
+
+            .producto {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Haps</h1>
+        <h2>Fruta Deshidratada al Sol de Alto Ricaurte</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#nosotros">Quiénes Somos</a></li>
+            <li><a href="#productos">Nuestros Productos</a></li>
+            <li><a href="#porque">Por Qué Elegirnos</a></li>
+            <li><a href="#contacto">Contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <section id="nosotros">
+        <h2>Quiénes Somos</h2>
+        <p>En <strong>Haps</strong>, nos dedicamos a ofrecerte frutas deshidratadas de la más alta calidad. Aprovechamos el poder del sol y las condiciones únicas de Alto Ricaurte para deshidratar nuestras frutas de manera natural, conservando todos sus nutrientes y sabor.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="mango.jpg" alt="Mango Deshidratado">
+                <h3>Mango Deshidratado</h3>
+            </div>
+            <div class="producto">
+                <img src="pina.jpg" alt="Piña Deshidratada">
+                <h3>Piña Deshidratada</h3>
+            </div>
+            <div class="producto">
+                <img src="banano.jpg" alt="Banano Deshidratado">
+                <h3>Banano Deshidratado</h3>
+            </div>
+            <div class="producto">
+                <img src="papaya.jpg" alt="Papaya Deshidratada">
+                <h3>Papaya Deshidratada</h3>
+            </div>
+            <div class="producto">
+                <img src="mezcla.jpg" alt="Mezclas Tropicales">
+                <h3>Mezclas Tropicales</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="porque">
+        <h2>Por Qué Elegir Haps</h2>
+        <ul>
+            <li><strong>Proceso Natural:</strong> Sin conservantes ni azúcares añadidos.</li>
+            <li><strong>Origen Local:</strong> Apoyamos a agricultores de la región.</li>
+            <li><strong>Calidad Garantizada:</strong> Frutas seleccionadas cuidadosamente.</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes alguna pregunta o quieres hacer un pedido?</p>
+        <div class="contacto-info">
+            <p><strong>Teléfono:</strong> +57 300 000 0000</p>
+            <p><strong>Correo Electrónico:</strong> info@haps.com.co</p>
+            <p><strong>Dirección:</strong> Calle 123 #45-67, Alto Ricaurte, Colombia</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook" width="30"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram" width="30"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter" width="30"></a>
+        </div>
+        <p>© 2024 Haps. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

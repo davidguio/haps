@@ -189,6 +189,26 @@
                 flex: 1 1 100%;
             }
         }
+        .whatsapp-bubble {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+
+    .whatsapp-bubble img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .whatsapp-bubble img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+
     </style>
 </head>
 <body>
@@ -266,6 +286,10 @@
         </div>
         <p>© 2024 Haps. Todos los derechos reservados.</p>
     </footer>
-
+    <div class="whatsapp-bubble">
+        <a href="https://wa.me/573224162750" target="_blank" title="Contáctanos por WhatsApp">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="60" height="60">
+        </a>
+    </div>
 </body>
 </html>

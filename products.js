@@ -17,8 +17,7 @@ function scrollFooter(scrollY, heightFooter)
     }
 }
 
-
-$(window).load(function(){
+$(window).on('load', function(){
     var windowHeight        = $(window).height(),
         footerHeight        = $('footer').height(),
         heightDocument      = (windowHeight) + ($('.content').height()) + ($('footer').height()) - 20;

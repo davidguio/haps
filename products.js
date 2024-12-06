@@ -17,7 +17,7 @@ function scrollFooter(scrollY, heightFooter)
     }
 }
 
-alert("lo lee");
+
 $(window).load(function(){
     var windowHeight        = $(window).height(),
         footerHeight        = $('footer').height(),

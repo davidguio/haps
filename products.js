@@ -54,3 +54,8 @@ $(window).on('load', function(){
         scrollFooter(scroll, footerHeight);
     }
 });
+
+$(".view a").on('click', function(){
+    $('.products ul').toggleClass('list');
+    return false;
+});

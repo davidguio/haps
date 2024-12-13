@@ -11,49 +11,39 @@
             line-height: 1.6;
         }
 
-        header {
-            background-image: url('https://res.cloudinary.com/dadp1865s/image/upload/v1732511200/WhatsApp_Image_2024-11-24_at_20.11.09_e518a452_eemf63.jpg');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-align: center;
+        .header {
+            background-color: #f4f4f4;
+            border-bottom: 2px solid #ddd;
+            padding: 10px 0;
+          }
         
-            position: relative;
-        }
-
-        header::after {
-            content: '';
-            background-color: rgba(0, 0, 0, 0.55);
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 0; 
-        }
-         header img {
-        position: relative; /* Asegura que el logo esté por encima del fondo */
-        z-index: 1; /* Logo sobre el pseudo-elemento */
-        width: 600px; /* Ajusta el tamaño del logo */
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-        header h1, header h2 {
-            position: relative;
-            z-index: 1;
-        }
-
-        header h1 {
-            font-size: 70px;
-            margin-bottom: 10px;
-        }
-
-        header h2 {
-            font-size: 30px;
-            font-weight: 400;
-        }
-
+          .header__banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+          }
+        
+          .header__logo img {
+            display: block;
+            height: auto;
+            max-height: 80px;
+          }
+        
+          .header__social {
+            display: flex;
+            align-items: center;
+          }
+        
+          .header__social a img {
+            transition: transform 0.3s ease;
+          }
+        
+          .header__social a img:hover {
+            transform: scale(1.1);
+          }
         nav {
             background-color: #f8f8f8;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);

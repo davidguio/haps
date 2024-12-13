@@ -82,7 +82,7 @@
         }
 
         h2 {
-            color: #bf0404;
+            color: #ffffff;
             margin-bottom: 20px;
             font-size: 36px;
         }
@@ -345,6 +345,6 @@
           }
           
           .hero-slider .flickity-page-dots .dot.is-selected {
-            background: #ff0000;
-            border: 0 solid #ff0000;
+            background: #ffffff;
+            border: 0 solid #ffffff;
           }

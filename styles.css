@@ -11,39 +11,41 @@
             line-height: 1.6;
         }
 
+        
         .header {
-            background-color: #f4f4f4;
-            border-bottom: 2px solid #ddd;
-            padding: 10px 0;
-          }
-        
-          .header__banner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-          }
-        
-          .header__logo img {
-            display: block;
-            height: auto;
-            max-height: 80px;
-          }
-        
-          .header__social {
-            display: flex;
-            align-items: center;
-          }
-        
-          .header__social a img {
-            transition: transform 0.3s ease;
-          }
-        
-          .header__social a img:hover {
-            transform: scale(1.1);
-          }
+          background-color: #f4f4f4;
+          border-bottom: 2px solid #ddd;
+          padding: 10px 0;
+        }
+      
+        .header__banner {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 20px;
+        }
+      
+        .header__logo img {
+          display: block;
+          height: auto;
+          max-height: 80px;
+        }
+      
+        .header__social {
+          display: flex;
+          align-items: center;
+        }
+      
+        .header__social a img {
+          transition: transform 0.3s ease;
+        }
+      
+        .header__social a img:hover {
+          transform: scale(1.1);
+        }
+   
         nav {
             background-color: #f8f8f8;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);

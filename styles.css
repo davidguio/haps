@@ -221,6 +221,7 @@
     }
 }
 
+
          /* Ajustes específicos para móviles */
         @media (max-width: 576px) {
             .producto img {
@@ -237,3 +238,19 @@
             }
         }
 
+    
+        @media (max-width: 576px) {
+            .header__banner {
+              flex-direction: column;
+              align-items: center;
+              padding: 10px;
+            }
+        
+            .header__logo img {
+              max-height: 100px; /* Incrementar el tamaño para mejor visibilidad */
+            }
+        
+            .header__social a img {
+              width: 50px; /* Incrementar tamaño de los iconos sociales */
+              margin: 10px; /* Mayor separación para evitar amontonamiento */
+            }

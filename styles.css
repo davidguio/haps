@@ -30,7 +30,7 @@
         .header__logo img {
           display: block;
           height: auto;
-          max-height: 80px;
+          max-height: 120px;
         }
       
         .header__social {
